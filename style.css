@@ -166,6 +166,46 @@ ul{
     color: #000;
     background-color: #d6b957;
 }
+@media (max-width: 768px) {
+
+    header {
+        padding: 15px;
+        text-align: center;
+    }
+
+    nav {
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    nav a {
+        margin: 10px;
+        font-size: 14px;
+    }
+
+    section {
+        padding: 40px 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .card img {
+        height: 200px;
+    }
+
+    .buy-btn,
+    .buy-btn1 {
+        font-size: 13px;
+        padding: 8px 16px;
+    }
+}
+
 
 /* Responsive */
 @media(max-width: 768px){
